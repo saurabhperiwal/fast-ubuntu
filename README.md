@@ -16,3 +16,4 @@ and run following command.
 
     $ sudo ./fash.sh
 
+RESTART your laptop so changes can take effect.
