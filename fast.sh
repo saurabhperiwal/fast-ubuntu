@@ -12,4 +12,7 @@ echo "Let me set your CPU to give better performance."
 sudo cpufreq-set -r -g performance
 #Set swappiness to 0 to use maximum RAM and use
 sudo echo 'vm.swappiness=0' >> /etc/sysctl.conf
+#Set preload
+sudo apt install preload
+#TODO: Turn off Power Management of Wifi. This sometimes disconnects Wifi.
 echo "***Please restart to let changes take effect***"
